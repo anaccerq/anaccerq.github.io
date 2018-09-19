@@ -4,11 +4,55 @@
     <head>
         <meta charset="utf-8">
         <title>Our First Website</title>
+        <link rel="normalize" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
         <!-- This is a comment-->
-        <h1>About Me</h1>
-        <p>Soon.</p>
+        <header class="site-header clearfix">
+            <!--<img src="logo.gif" alt="My Logo" width="30" height="30">-->
+            <h1>Ana de Mesquita</h1>
+            <nav class="main-nav">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portifolio.html">Portifolio</a></li>
+                        <li class="divider"></li>
+                        <li><a href="about.html">About Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            
+            <div class="column-wrapper clearfix">
+                <section class="main-col">
+                    <h3>Soon new features</h3>
+                    <p>Blogposts soon.</p>
+                </section>
+                <aside class="sidebar-col">
+                    <img src="profile.gif" alt="Profile Pic" height = "80%" width="80%">
+                    <h4>Contact me</h4>
+                    <p>anaccerq@gmail.com</p>
+                </aside>
+            </div>
+            
+        </main>
+        <footer class="main-footer clearfix">
+            <p class="copyright">
+                &copy; 2018
+            </p>
+            <ul class="footer-nav clearfix">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
