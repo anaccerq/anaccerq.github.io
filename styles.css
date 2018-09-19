@@ -63,6 +63,7 @@
    float:left;
    width:70%;
    font-family: 'Poiret One', cursive;
+   font-size: 16px;
 }
 
 .sidebar-col{
@@ -79,7 +80,7 @@
     background:#9B50B5;
     font-family: 'Open Sans Condensed', sans-serif;
     color:white;
-    padding: 10px 5%;
+    padding: 35px 5%;
 }
 
 .main-footer a{
