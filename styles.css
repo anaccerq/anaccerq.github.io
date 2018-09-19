@@ -77,10 +77,13 @@
 }
 
 .main-footer{
+    position:absolute;
     background:#9B50B5;
     font-family: 'Open Sans Condensed', sans-serif;
     color:white;
     padding: 35px 5%;
+    bottom: 0px;
+    width:100%;
 }
 
 .main-footer a{
