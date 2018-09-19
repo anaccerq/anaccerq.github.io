@@ -33,7 +33,7 @@
 
 .main-nav{
     margin-top:1%;
-    margin-right: 1.5%;
+    margin-right: 2%;
     float:right;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:20px;
@@ -108,8 +108,10 @@
  }
 
 .gallery{
-    margin-top:5%;
-    
-
+    width:90%;
+    margin: 5% auto;
 }
 
+.billboard{
+    width:100%;
+}
