@@ -14,7 +14,6 @@
 
 .site-header{
     background:white;
-    color:#9B50B5;
     padding:10px 5%;
     box-shadow: 0 1px 3px #999;
 }
@@ -23,6 +22,11 @@
    font-family: 'Calligraffitti', cursive;
    font-size:30px;
    float: left;
+}
+
+.site-header h1 a{
+    text-decoration:none;
+    color:#9B50B5;
 }
 
 .site-header img{
